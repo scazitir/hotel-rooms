@@ -9,14 +9,6 @@ public class Guest {
         this.email = email;
     }
 
-    public String getName(){
-        return name;
-    }
-
-    public String getEmail(){
-        return email;
-    }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
